@@ -32,9 +32,9 @@ const app = express()
 const corsOptions = {
   //To allow requests from client
   origin: [
+    "https://violet-heron-721839.hostingersite.com",
     "http://localhost:5173",
     "localhost:8080",
-    "https://violet-heron-721839.hostingersite.com"
   ],
   credentials: true,
   exposedHeaders: ["set-cookie"],
