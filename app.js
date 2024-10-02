@@ -40,7 +40,6 @@ const corsOptions = {
   exposedHeaders: ["set-cookie"],
 };
 
-//Settings 
 const port = process.env.PORT || 3000
 // Configuración para servir archivos estáticos
 app.use('/static', express.static('src/img'));
